@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judaismus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Judaismus</h1>
+        <p>Vítejte na našem interaktivním webu věnovaném judaismu. Tento web vám poskytne základní informace o této náboženské tradici.</p>
+        <div id="hymnButtons" class="hymn-buttons">
+            <button id="americaHymn" class="hymn-button">Israelská Hymna</button>
+            <button id="stopHymn" class="hymn-button">Vypnout zvuky</button>
+        </div>        
+    </header>    
+
+    <section>
+        <div id="gameHeader" class="game-header">
+            <h2 class="game-title">Hra: Hrdý Judaista - Kvíz</h2>
+            <button id="startButton" class="start-button">Start</button>
+        </div>
+        <div id="introContainer" class="intro-container hidden">
+            <p id="introText" class="intro-text"></p>
+        </div>
+        <div id="questionContainer" class="hidden">
+            <p id="question" class="question-text"></p>
+            <ul id="answers" class="answer-list">
+            </ul>
+            <button id="checkButton" class="check-button">Zkontrolovat</button>
+        </div>
+        <p id="result" class="result-text"></p>
+    </section>
+    <br><br><br><br>
+        <div class="centered-content">
+            <a href="index.html" class="back-button">Jdi zpět</a>
+        </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        &copy; 2024 EDUCANET 2.IT
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
